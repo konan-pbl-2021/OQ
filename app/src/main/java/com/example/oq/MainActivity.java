@@ -1,4 +1,4 @@
-package com.example.testapp;
+package com.example.oq;
 
 import androidx.appcompat.app.AppCompatActivity;
 

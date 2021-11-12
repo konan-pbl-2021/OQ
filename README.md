@@ -1,2 +1,2 @@
-# testApp
-Prototype of android applications
+# OQ
+小さい子供がお使いをするゲームです
