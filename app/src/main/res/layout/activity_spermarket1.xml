@@ -7,19 +7,19 @@
     tools:context=".Spermarket1Activity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/yesbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="YES"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/nobutton"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/nobutton"
         android:layout_width="83dp"
         android:layout_height="54dp"
         android:text="NO"
