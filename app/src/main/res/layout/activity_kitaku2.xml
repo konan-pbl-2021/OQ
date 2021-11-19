@@ -7,14 +7,14 @@
     tools:context=".kitaku1Activity">
 
     <Button
-        android:id="@+id/yesbutton"
+        android:id="@+id/missbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yes"
+        android:text="はい"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintHorizontal_bias="0.179"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.83" />
@@ -23,25 +23,36 @@
         android:id="@+id/nobutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No"
+        android:text="いいえ"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.83" />
 
     <TextView
         android:id="@+id/kitakusentakusi1"
-        android:layout_width="184dp"
-        android:layout_height="105dp"
-        android:text="帰路2"
+        android:layout_width="260dp"
+        android:layout_height="71dp"
+        android:text="おじさんがアイスを持ってきてくれた。"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238" />
+        app:layout_constraintVertical_bias="0.146" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="257dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="8dp"
+        android:text="ついていきますか？"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kitakusentakusi1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

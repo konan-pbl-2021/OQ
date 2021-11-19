@@ -7,10 +7,10 @@
     tools:context=".kitaku1Activity">
 
     <Button
-        android:id="@+id/yesbutton"
+        android:id="@+id/missbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yes"
+        android:text="遊ばない"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +23,7 @@
         android:id="@+id/nobutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No"
+        android:text="遊ぶ"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,14 +34,14 @@
 
     <TextView
         android:id="@+id/kitakusentakusi1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="帰路１"
-        android:textSize="24sp"
+        android:layout_width="374dp"
+        android:layout_height="84dp"
+        android:text="駐車場で友達が遊びに誘ってきた。"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304" />
+        app:layout_constraintVertical_bias="0.211" />
 </androidx.constraintlayout.widget.ConstraintLayout>
