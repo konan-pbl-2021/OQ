@@ -12,7 +12,7 @@ public class Spermarket3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_spermarket1);
+        setContentView(R.layout.activity_spermarket3);
         Button yesButton = (Button)findViewById(R.id.yesbutton);
         Button noButton = (Button)findViewById(R.id.nobutton);
         yesButton.setOnClickListener(new View.OnClickListener() {
