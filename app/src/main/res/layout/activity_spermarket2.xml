@@ -10,7 +10,7 @@
         android:id="@+id/yesbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="YES"
+        android:text="はい"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/nobutton"
@@ -19,6 +19,11 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
+
+        android:id="@+id/button2"
+        android:layout_width="104dp"
+        android:layout_height="53dp"
+        android:text="いいえ"
         android:id="@+id/nobutton"
         android:layout_width="83dp"
         android:layout_height="54dp"
