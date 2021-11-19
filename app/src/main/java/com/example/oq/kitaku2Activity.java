@@ -13,7 +13,7 @@ public class kitaku2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kitaku2);
-        Button yesButton = (Button)findViewById(R.id.yesbutton);
+        Button yesButton = (Button)findViewById(R.id.missbutton);
         Button noButton = (Button)findViewById(R.id.nobutton);
         yesButton.setOnClickListener(new View.OnClickListener() {
             @Override
