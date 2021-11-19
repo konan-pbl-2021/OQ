@@ -25,7 +25,7 @@ public class HomeActivity extends AppCompatActivity {
         noButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this,Go1Activity.class);
+                Intent intent = new Intent(HomeActivity.this,GameoverActivity.class);
                 startActivity(intent);
             }
         });
