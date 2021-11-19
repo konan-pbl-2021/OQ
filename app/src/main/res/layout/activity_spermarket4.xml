@@ -7,22 +7,22 @@
     tools:context=".Spermarket1Activity">
 
     <Button
-        android:id="@+id/yesbutton"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="肉"
+        android:text="はい"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/nobutton"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/nobutton"
+        android:id="@+id/button2"
         android:layout_width="83dp"
         android:layout_height="54dp"
-        android:text="野菜"
+        android:text="いいえ"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,23 +32,25 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="291dp"
-        android:layout_height="47dp"
-        android:text="野菜コーナー肉コーナー"
+        android:layout_width="332dp"
+        android:layout_height="42dp"
+        android:text="レジでは店員が会計してくれた"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248" />
+        app:layout_constraintVertical_bias="0.219" />
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="228dp"
-        android:layout_height="58dp"
-        android:text="どちらに行きますか"
+        android:id="@+id/textView5"
+        android:layout_width="98dp"
+        android:layout_height="45dp"
+        android:text="店を出る"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
