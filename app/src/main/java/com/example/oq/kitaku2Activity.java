@@ -12,7 +12,7 @@ public class kitaku2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kitaku1);
+        setContentView(R.layout.activity_kitaku2);
         Button yesButton = (Button)findViewById(R.id.yesbutton);
         Button noButton = (Button)findViewById(R.id.nobutton);
         yesButton.setOnClickListener(new View.OnClickListener() {
@@ -25,7 +25,7 @@ public class kitaku2Activity extends AppCompatActivity {
         noButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(kitaku2Activity.this,Go1Activity.class);
+                Intent intent = new Intent(kitaku2Activity.this,GoalActivity.class);
                 startActivity(intent);
             }
         });
