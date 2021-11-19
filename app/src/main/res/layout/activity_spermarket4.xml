@@ -20,8 +20,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="83dp"
-        android:layout_height="54dp"
+        android:layout_width="107dp"
+        android:layout_height="49dp"
         android:text="いいえ"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
