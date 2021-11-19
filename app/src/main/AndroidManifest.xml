@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".GameoverActivity"></activity>
-        <activity android:name=".Spermarket1Activity"></activity>
-        <activity android:name=".kitaku1Activity"></activity>
+        <activity android:name=".Spermarket1MissActivity"></activity>
+        <activity android:name=".GameoverActivity" />
+        <activity android:name=".Go1Activity" />
+        <activity android:name=".Spermarket1Activity" />
+        <activity android:name=".kitaku1Activity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

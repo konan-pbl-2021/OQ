@@ -34,10 +34,14 @@
 
     <TextView
         android:id="@+id/kitakusentakusi1"
-        android:layout_width="184dp"
-        android:layout_height="105dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="帰路１"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="136dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304" />
 </androidx.constraintlayout.widget.ConstraintLayout>
