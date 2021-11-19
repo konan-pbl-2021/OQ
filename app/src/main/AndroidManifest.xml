@@ -12,9 +12,16 @@
         <activity android:name=".Spermarket1MissActivity"></activity>
         <activity android:name=".GameoverActivity" />
         <activity android:name=".Go1Activity" />
+        <activity android:name=".Go2Activity" />
+        <activity android:name=".Go3Activity" />
         <activity android:name=".Spermarket1Activity" />
+        <activity android:name=".Spermarket2Activity" />
+        <activity android:name=".Spermarket3Activity" />
+        <activity android:name=".Spermarket4Activity" />
         <activity android:name=".kitaku1Activity" />
+        <activity android:name=".kitaku2Activity" />
         <activity android:name=".HomeActivity" />
+        <activity android:name=".GoalActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
