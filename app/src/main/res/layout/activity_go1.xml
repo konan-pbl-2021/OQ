@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Go1Activity">
 
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="拾いますか？"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
     <Button
         android:id="@+id/missbutton"
         android:layout_width="wrap_content"
@@ -31,26 +42,25 @@
         app:layout_constraintVertical_bias="0.702" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="200dp"
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="石が落ちている。"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintVertical_bias="0.19999999" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="150dp"
-        android:layout_height="30dp"
-        android:text="拾いますか？"
-        android:textSize="24sp"
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="298dp"
+        android:layout_height="474dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ishi_stone" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
