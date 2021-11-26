@@ -12,6 +12,7 @@
         <activity android:name=".Spermarket1MissActivity"></activity>
         <activity android:name=".GameoverActivity" />
         <activity android:name=".Go1Activity" />
+        <activity android:name=".Go1MissActivity" />
         <activity android:name=".Go2Activity" />
         <activity android:name=".Go3Activity" />
         <activity android:name=".Spermarket1Activity" />
